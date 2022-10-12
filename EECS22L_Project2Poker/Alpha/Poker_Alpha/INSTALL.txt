@@ -1,0 +1,19 @@
+System Requirements;
+    1. Linux
+    2. std=c11 Enabled
+    3. gtk library installed
+
+
+Setup and Configuration / Uninstalling;
+    1. Download and extract the tar.gz file to access the program
+        Unpack by typing gtar -xvzf Goldfish Alpha src.tar.gz file
+    2. To install the program:
+        Type:
+        make all
+        cd bin
+        One Player Type "./GoldfishServer" to host the server
+        Type "./GOldfishClient 10111" to run the program
+
+    3. To uninstall the program:
+        Type "make clean" to remove the program files
+        Type "rm Makefile" to remove the Makefile

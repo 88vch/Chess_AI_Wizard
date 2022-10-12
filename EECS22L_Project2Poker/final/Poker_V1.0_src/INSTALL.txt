@@ -1,0 +1,20 @@
+System Requirements;
+    1. Linux
+    2. std=c11 Enabled
+    3. gtk library installed
+
+
+Setup and Configuration / Uninstalling;
+    1. Download and extract the tar.gz file to access the program
+        Unpack by typing gtar -xvzf Poker_V1.0_src.tar.gz
+    2. To install the program:
+        Type:
+        make all
+        One Player Type "./bin/GoldfishServer 10111" to host the server
+        [Linux] Type in number of players (1-6)
+        Type "./bin/GoldfishClient <servername> 10111" to run the program
+        Click setting button to type number of players and player table position
+
+    3. To uninstall the program:
+        Type "make clean" to remove the program files
+        Type "rm Makefile" to remove the Makefile

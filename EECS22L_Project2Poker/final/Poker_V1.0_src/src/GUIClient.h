@@ -1,0 +1,9 @@
+#ifndef GUICLIENT_h
+#define GUICLIENT_h
+
+#define SQUARE_SIZE 100
+#define WINDOW_WIDTH  (12*SQUARE_SIZE)
+#define WINDOW_HEIGHT (8*SQUARE_SIZE)
+#define WINDOW_BORDER 10
+
+#endif
