@@ -1,0 +1,10 @@
+1. Download and extract the tar.gz file to access the program
+    Unpack by typing gtar -xvzf Chess Alpha src.tar.gz file
+2. To install the program:
+    Type:
+    make
+    cd bin
+    Type "./Checkers_But_Chess" to run the program
+
+3. To uninstall the program:
+    Type "make clean" to remove the program
